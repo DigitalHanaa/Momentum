@@ -1,0 +1,40 @@
+* {
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New roman';
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    font-size: 2em;
+    padding: 1% 0 0 1%;
+}
+
+b {
+    font-size: 1em;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1% 1% 0 1%;
+}
+
+#weatherContainer {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#timeContainer {
+    font-size: 5em;
+}
+
+#quoteContainer {
+    text-align: center;
+}
